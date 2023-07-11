@@ -26,7 +26,7 @@ dotenv.config();
 const app = express();
 
 const corsOption = {
-  origin: "https://vercel.com/mightybeast89/centennialista-mern-fullstack",
+  origin: "https://centennialista-mern-fullstack.vercel.app/",
 };
 
 app.use(express.json());
