@@ -5,3 +5,8 @@ vercel config for deployment
   "builds": [{ "src": "index.js", "use": "@vercel/node" }],
   "routes": [{ "src": "/(.*)", "dest": "/ " }]
 }
+
+api
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/api" }]
+}
