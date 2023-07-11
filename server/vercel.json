@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "name": "Centennialista-MERN-Fullstack",
+  "builds": [{ "src": "script.js", "use": "@vercel/node" }],
+  "routes": [{ "src": "/(.*)", "dest": "/index.js" }]
+}
