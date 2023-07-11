@@ -26,7 +26,7 @@ dotenv.config();
 const app = express();
 
 const corsOption = {
-  origin: "https://centennialista-mern-fullstack.vercel.app/",
+  origin: "https://centennialista-mern-fullstack.vercel.app",
   allowedHeaders: true,
   credentials: true,
 };
