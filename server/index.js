@@ -27,6 +27,8 @@ const app = express();
 
 const corsOption = {
   origin: "https://centennialista-mern-fullstack.vercel.app/",
+  allowedHeaders: true,
+  credentials: true,
 };
 
 app.use(express.json());
