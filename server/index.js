@@ -26,7 +26,7 @@ dotenv.config();
 const app = express();
 
 const corsOption = {
-  origin: "http://localhost:3000",
+  origin: "https://centennialista-mern-fullstack-guqi.vercel.app",
   allowedHeaders: true,
   credentials: true,
 };
