@@ -20,12 +20,12 @@ const AdvertWidget = () => {
         width="100%"
         height="auto"
         alt="advert"
-        src="http://localhost:3001/assets/info4.jpg"
+        src="https://centennialista-mern-fullstack-guqi.vercel.app/assets/info4.jpeg"
         style={{ borderRadius: "0.75rem", margin: "0.75rem 0" }}
       />
       <FlexBetween>
         <Typography color={main}>BanBan Korean Chicken</Typography>
-        <Typography color={medium}>banbanchk.com/</Typography>
+        <Typography color={medium}>https://banbanchk.com</Typography>
       </FlexBetween>
       <Typography color={medium} m="0.5rem 0">
         Your authentic Korean Restaurant at the heart of Ajax.
