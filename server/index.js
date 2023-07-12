@@ -77,5 +77,5 @@ mongoose
   .catch((error) => console.log(`${error} did not connect`));
 
 app.get("/", (req, res) => {
-  res.send("Welcome to my homepage!");
+  res.send("Welcome to my server!");
 });
